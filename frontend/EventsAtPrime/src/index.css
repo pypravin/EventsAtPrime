@@ -1,16 +1,38 @@
-*{
+/* index.css */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
 }
+
+html, body {
+  height: 100%; /* Needed for flexbox layout */
+  font-family: sans-serif;
+}
+
 body {
-background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  background-color: #f9fafb;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* Main content grows to push footer down */
+main {
+  flex: 1;
 }
 
+/* Events Section */
+.events-section {
+  padding: 30px;
+  background-color: #f3f4f6;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1f2937;
+}

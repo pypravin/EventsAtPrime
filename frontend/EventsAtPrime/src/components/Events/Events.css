@@ -1,0 +1,89 @@
+/* components/Events/Events.css */
+
+/* Container */
+.events-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title */
+.events-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1a202c;
+  font-weight: bold;
+}
+
+/* Grid Layout */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.event-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+  padding: 20px;
+}
+
+.event-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.event-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Text Styles */
+.event-name {
+  font-size: 1.5rem;
+  color: #333333;
+  margin: 10px 0;
+}
+
+.event-organizer {
+  color: #0077cc;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  color: #555555;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.event-date,
+.event-creator {
+  font-size: 0.85rem;
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+/* Button */
+.register-btn {
+  margin-top: 10px;
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: #2563eb;
+}

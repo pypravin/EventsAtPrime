@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Talk 2025: AI & Future",
+    "description": "Join us for an insightful session on the future of Artificial Intelligence and how it’s reshaping industries.",
+    "date": "2025-07-10",
+    "time": "14:00",
+    "location": "Prime College Hall A",
+    "organizer": "Tech Club",
+    "image_url": "http://localhost:5173/images/Hackaverse.jpg",
+    "price": 0,
+    "tags": ["tech", "AI", "free"],
+    "registration_count": 52,
+    "max_capacity": 100,
+    "registration_url":"https://www.example.com"
+  },
+  {
+    "id": 2,
+    "title": "Cultural Fest 2025",
+    "description": "An evening of cultural performances, food, and fun! Don’t miss this celebration of diversity.",
+    "date": "2025-07-20",
+    "time": "18:00",
+    "location": "Prime College Main Ground",
+    "organizer": "Cultural Club",
+    "image_url": "http://localhost:5173/images/Hackaverse2.jpg",
+    "price": 200,
+    "tags": ["cultural", "paid", "entertainment"],
+    "registration_count": 89,
+    "max_capacity": 300,
+    "registration_url":"https://www.example.com"
+  },
+  {
+    "id": 3,
+    "title": "Hackathon 2025",
+    "description": "Compete in teams to solve real-world problems in a 24-hour coding marathon.",
+    "date": "2025-08-05",
+    "time": "09:00",
+    "location": "Lab 3, Prime College",
+    "organizer": "Developers Club",
+    "image_url": "http://localhost:5173/images/Hackaverse3.jpg",
+    "price": 100,
+    "tags": ["coding", "hackathon", "paid", "tech"],
+    "registration_count": 34,
+    "max_capacity": 50,
+    "registration_url":"https://www.example.com"
+  },
+  {
+    "id": 4,
+    "title": "Mental Health Awareness Workshop",
+    "description": "A safe space to learn, share, and grow. Guided by professional psychologists.",
+    "date": "2025-07-15",
+    "time": "11:00",
+    "location": "Room 204, Block B",
+    "organizer": "Wellness Club",
+    "image_url": "http://localhost:5173/images/Hackaverse4.jpg",
+    "price": 0,
+    "tags": ["wellness", "mental health", "free"],
+    "registration_count": 74,
+    "max_capacity": 80,
+    "registration_url":"https://www.example.com"
+  }
+]
