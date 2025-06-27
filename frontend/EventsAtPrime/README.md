@@ -1,12 +1,20 @@
-# React + Vite
+# Events@Prime
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application to display upcoming events for Prime College.  
+Built with React, modular components, and styled with custom CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Displays a list of upcoming events from a static JSON data file.
+- Modular React components for maintainability and scalability.
+- Custom CSS styling without any CSS frameworks.
+- Responsive layout for desktop and mobile.
+- Conditional rendering of Register buttons based on user role.
+- Clean, semantic HTML structure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
