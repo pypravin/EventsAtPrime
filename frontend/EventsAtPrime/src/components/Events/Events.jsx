@@ -27,11 +27,11 @@ const EventsList = () => {
 
   return (
     <ul className="events-grid">
-      {eventsData.map((event) => {
+      {eventsData.map((props) => {
         return (
           <EventsListCard
-            key={event.id}
-            event={event}
+            key={props.id}
+            event={props}
             is_admin={is_admin}
             userName={userName}
             formatDate={formatDate}
